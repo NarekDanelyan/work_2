@@ -42,6 +42,24 @@
     background-color:     #ed5e00;
     padding: 50px 0px;
 }
+section{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 2.4em;
+    padding: 20px;
+    cursor: pointer;
+}
+i:hover{
+    color: #23bdf3;
+}
+section h1{
+    color: gray;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 2.4em;
+}
 .item2{
     z-index: 4;
     width: 330px;
