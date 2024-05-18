@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e4f8bfed05885435a6be1a4d/-min.jpg);
+    height: 700px;
+    font-family: 'PT Sans', sans-serif;
+}
+.header h1{
+    color: #633be2 ;
+    width: 410px;
+    font-size: 5em;
+}
+.container{
+    padding: 100px;
+
+}
+.header button{
+    padding: 15px 23px;
+    background-image: linear-gradient(to right, #23bdf3, #633be2);
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* start sec_1 */
+
+
+.sec_1{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.item1{
+    z-index: 4;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color:     #ed5e00;
+    padding: 50px 0px;
+}
+.item2{
+    z-index: 4;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color:     #ed5e00;
+}
+.content {
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    background-image: linear-gradient(to right, #23bdf3, #633be2);
+    display: flex;
+    border-radius: 30px;
+}
+.content h3{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+.content p{
+    color: #fff;
+    width: 90px;
+}
+@media screen and (max-width:576px){
+    .content{
+        width: 450px;
+        height: 700px;
+    }
+    .content h3:last-of-type{
+        flex-wrap: wrap;
+    }
+    
+}
